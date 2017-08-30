@@ -1,0 +1,27 @@
+{
+    "workbench.colorTheme": "Quiet Light",
+    "editor.fontFamily": "Source Code Pro",
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "newUntitledFile",
+    "latex-workshop.latex.toolchain": [
+        {
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=./build/",
+                "-aux-directory=./build/",
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+            "command": "mv",
+            "args": [
+                "./build/%DOCFILE%.pdf",
+                "./%DOCFILE%.pdf"
+            ]
+        }
+    ]
+}
