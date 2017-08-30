@@ -3,6 +3,7 @@
     "editor.fontFamily": "Source Code Pro",
     "window.zoomLevel": 1,
     "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
     "latex-workshop.latex.toolchain": [
         {
             "command": "latexmk",
