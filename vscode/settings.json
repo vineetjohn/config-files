@@ -18,7 +18,7 @@
             ]
         },
         {
-            "command": "mv",
+            "command": "cp",
             "args": [
                 "./build/%DOCFILE%.pdf",
                 "./%DOCFILE%.pdf"
