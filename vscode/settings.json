@@ -1,6 +1,6 @@
-{
-    "workbench.colorTheme": "Quiet Light",
-    "editor.fontFamily": "Source Code Pro",
+{    
+    "workbench.colorTheme": "Default Light+",
+    "editor.fontFamily": "monospace",
     "window.zoomLevel": 1,
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
@@ -24,5 +24,6 @@
                 "./%DOCFILE%.pdf"
             ]
         }
-    ]
+    ],
+    "python.linting.pylintEnabled": false
 }
