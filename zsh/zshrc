@@ -103,3 +103,7 @@ pyclean () {
 alias ff="filename-formatter"
 alias copy='xclip -sel clip'
 
+export GPG_TTY=$(tty)
+export EDITOR='vim'
+export VISUAL='vim'
+
