@@ -1,30 +1,17 @@
 {    
     "workbench.colorTheme": "Default Light+",
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Monospace",
     "editor.fontLigatures": true,
     "window.zoomLevel": 1,
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
-    "latex-workshop.latex.toolchain": [
-        {
-            "command": "latexmk",
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-output-directory=./build/",
-                "-aux-directory=./build/",
-                "-pdf",
-                "%DOC%"
-            ]
-        },
-        {
-            "command": "cp",
-            "args": [
-                "./build/%DOCFILE%.pdf",
-                "./%DOCFILE%.pdf"
-            ]
-        }
-    ],
-    "python.linting.pylintEnabled": true
+    "window.restoreWindows": "none",
+    "update.channel": "none",
+    "extensions.ignoreRecommendations": true,
+    "org.todoKeywords": [
+        "TODO",
+        "PENDING",
+        "WORKING",
+        "DONE"
+    ]
 }
