@@ -7,11 +7,5 @@
     "editor.minimap.enabled": false,
     "window.restoreWindows": "none",
     "update.channel": "none",
-    "extensions.ignoreRecommendations": true,
-    "org.todoKeywords": [
-        "TODO",
-        "PENDING",
-        "WORKING",
-        "DONE"
-    ]
+    "extensions.ignoreRecommendations": true
 }
