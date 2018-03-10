@@ -7,5 +7,27 @@
     "editor.minimap.enabled": false,
     "window.restoreWindows": "none",
     "update.channel": "none",
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "latex-workshop.latex.toolchain": [
+        {
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=./build/",
+                "-aux-directory=./build/",
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+            "command": "cp",
+            "args": [
+                "./build/%DOCFILE%.pdf",
+                "./%DOCFILE%.pdf"
+            ]
+        }
+    ],
+    "python.linting.pylintEnabled": true
 }
