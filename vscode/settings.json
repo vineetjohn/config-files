@@ -28,6 +28,5 @@
                 "./%DOCFILE%.pdf"
             ]
         }
-    ],
-    "python.linting.pylintEnabled": true
+    ]
 }
