@@ -18,6 +18,7 @@
                 "-output-directory=./build/",
                 "-aux-directory=./build/",
                 "-pdf",
+                "--shell-escape",
                 "%DOC%"
             ]
         },
