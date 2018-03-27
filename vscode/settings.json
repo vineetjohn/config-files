@@ -8,8 +8,18 @@
     "window.restoreWindows": "none",
     "update.channel": "none",
     "extensions.ignoreRecommendations": true,
-    "latex-workshop.latex.toolchain": [
+    "latex-workshop.latex.recipes": [
         {
+            "name": "latexmk",
+            "tools": [
+                "latexmk",
+                "cp"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
             "command": "latexmk",
             "args": [
                 "-synctex=1",
@@ -23,11 +33,13 @@
             ]
         },
         {
+            "name": "cp",
             "command": "cp",
             "args": [
                 "./build/%DOCFILE%.pdf",
                 "./%DOCFILE%.pdf"
             ]
         }
-    ]
+    ],
+    "latex-workshop.view.pdf.viewer": "tab"
 }
