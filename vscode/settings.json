@@ -1,4 +1,4 @@
-{    
+{
     "workbench.colorTheme": "Default Light+",
     "editor.fontFamily": "Monospace",
     "editor.fontLigatures": true,
@@ -22,6 +22,8 @@
             "name": "latexmk",
             "command": "latexmk",
             "args": [
+                "-f",
+                "-xelatex",
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
@@ -41,5 +43,6 @@
             ]
         }
     ],
-    "latex-workshop.view.pdf.viewer": "tab"
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latexindent.path": "/usr/share/texmf-dist/scripts/latexindent/latexindent.pl",
 }
