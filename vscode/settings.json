@@ -46,4 +46,5 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latexindent.path": "/usr/share/texmf-dist/scripts/latexindent/latexindent.pl",
     "latex-workshop.message.update.show": false,
+    "telemetry.enableTelemetry": false
 }
