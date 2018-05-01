@@ -71,4 +71,5 @@
     "latex-workshop.latexindent.path": "/usr/share/texmf-dist/scripts/latexindent/latexindent.pl",
     "latex-workshop.message.update.show": false,
     "latex-workshop.latex.autoBuild.onSave.enabled": false,
+    "telemetry.enableTelemetry": false
 }
