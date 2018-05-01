@@ -6,8 +6,6 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -17,7 +15,4 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 syntax on
-
-let g:vim_markdown_folding_disabled = 1
-
 

@@ -15,6 +15,15 @@
                 "latexmk",
                 "cp"
             ]
+        },
+        {
+            "name": "thesis",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
         }
     ],
     "latex-workshop.latex.tools": [
@@ -24,13 +33,28 @@
             "args": [
                 "-f",
                 "-xelatex",
+                "-shell-escape",
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-output-directory=./build/",
                 "-aux-directory=./build/",
                 "-pdf",
-                "--shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
                 "%DOC%"
             ]
         },
@@ -46,4 +70,5 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latexindent.path": "/usr/share/texmf-dist/scripts/latexindent/latexindent.pl",
     "latex-workshop.message.update.show": false,
+    "latex-workshop.latex.autoBuild.onSave.enabled": false,
 }
