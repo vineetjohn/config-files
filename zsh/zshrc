@@ -65,6 +65,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls='ls -N --color=tty'
 alias lll='ls -lrth'
+alias code='code --disable-gpu'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
