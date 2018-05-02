@@ -32,13 +32,11 @@
             "command": "latexmk",
             "args": [
                 "-f",
-                "-xelatex",
                 "-shell-escape",
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-output-directory=./build/",
-                "-aux-directory=./build/",
                 "-pdf",
                 "%DOC%"
             ]
