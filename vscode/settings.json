@@ -12,17 +12,7 @@
         {
             "name": "latexmk",
             "tools": [
-                "latexmk",
-                "cp"
-            ]
-        },
-        {
-            "name": "thesis",
-            "tools": [
-                "pdflatex",
-                "bibtex",
-                "pdflatex",
-                "pdflatex"
+                "latexmk"
             ]
         }
     ],
@@ -69,5 +59,6 @@
     "latex-workshop.latexindent.path": "/usr/share/texmf-dist/scripts/latexindent/latexindent.pl",
     "latex-workshop.message.update.show": false,
     "latex-workshop.latex.autoBuild.onSave.enabled": false,
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "editor.wordWrap": "on"
 }
