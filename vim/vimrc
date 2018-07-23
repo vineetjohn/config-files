@@ -10,12 +10,15 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+syntax on
+
 set clipboard=unnamedplus
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set number
-syntax on
-
+set cursorbind
+set scrollbind
+set cursorline
 set guifont=Inconsolata\ 14
 
