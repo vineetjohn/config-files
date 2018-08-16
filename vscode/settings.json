@@ -8,57 +8,7 @@
     "window.restoreWindows": "none",
     "update.channel": "none",
     "extensions.ignoreRecommendations": true,
-    "latex-workshop.latex.recipes": [
-        {
-            "name": "latexmk",
-            "tools": [
-                "latexmk"
-            ]
-        }
-    ],
-    "latex-workshop.latex.tools": [
-        {
-            "name": "latexmk",
-            "command": "latexmk",
-            "args": [
-                "-f",
-                "-shell-escape",
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-output-directory=./build/",
-                "-pdf",
-                "%DOC%"
-            ]
-        },
-        {
-            "name": "pdflatex",
-            "command": "pdflatex",
-            "args": [
-                "-shell-escape",
-                "%DOC%"
-            ]
-        },
-        {
-            "name": "bibtex",
-            "command": "bibtex",
-            "args": [
-                "%DOC%"
-            ]
-        },
-        {
-            "name": "cp",
-            "command": "cp",
-            "args": [
-                "./build/%DOCFILE%.pdf",
-                "./%DOCFILE%.pdf"
-            ]
-        }
-    ],
-    "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latexindent.path": "/usr/share/texmf-dist/scripts/latexindent/latexindent.pl",
-    "latex-workshop.message.update.show": false,
-    "latex-workshop.latex.autoBuild.onSave.enabled": false,
     "telemetry.enableTelemetry": false,
     "editor.wordWrap": "on"
 }
