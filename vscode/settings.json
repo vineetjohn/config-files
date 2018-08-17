@@ -10,5 +10,6 @@
     "extensions.ignoreRecommendations": true,
     "latex-workshop.latexindent.path": "/usr/share/texmf-dist/scripts/latexindent/latexindent.pl",
     "telemetry.enableTelemetry": false,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "latex-workshop.latex.autoBuild.onSave.enabled": false
 }
