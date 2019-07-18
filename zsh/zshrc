@@ -65,6 +65,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls='ls -N --color=tty'
 alias lll='ls -lrth'
+alias gdo='git diff origin'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
