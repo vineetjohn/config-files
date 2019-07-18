@@ -6,10 +6,13 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
     "window.restoreWindows": "none",
-    "update.channel": "none",
     "extensions.ignoreRecommendations": true,
-    "latex-workshop.latexindent.path": "/usr/share/texmf-dist/scripts/latexindent/latexindent.pl",
     "telemetry.enableTelemetry": false,
     "editor.wordWrap": "on",
-    "latex-workshop.latex.autoBuild.run": "never"
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+    "latex-workshop.latex.outDir": "build/",
 }
