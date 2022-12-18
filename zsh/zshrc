@@ -28,6 +28,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+alias open=xdg-open
 alias ls='ls -N --color=tty'
 alias lll='ls -lrth'
 alias gdo='git diff origin'
