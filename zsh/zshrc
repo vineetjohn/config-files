@@ -36,3 +36,6 @@ alias gdo='git diff origin'
 export GPG_TTY=$(tty)
 export EDITOR=vim
 export VISUAL=vim
+
+# Reset to always Use a beam cursor
+precmd() { echo -ne "\e[5 q" }
